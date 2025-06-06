@@ -1,8 +1,6 @@
-# 🩺 Patient Registration Data
+# Patient Registration Data
 
 A Chrome extension that adds a convenient **sidebar panel** for quickly accessing and pasting **test patient registration data** — built to save time during development and testing.
-
-![Extension Icon](icon.png)
 
 ---
 
