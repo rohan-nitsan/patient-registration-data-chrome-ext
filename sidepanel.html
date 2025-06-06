@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Patient Registration Data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Patient Registration Data</h2>
+
+  <!-- Flex wrapper to fill space between header and footer -->
+  <div class="tab-wrapper">
+    <div class="tabs">
+      <button class="tab-button active" data-tab="simple">Important Data</button>
+      <button class="tab-button" data-tab="detailed">All Data</button>
+    </div>
+
+    <div id="simple" class="tab-content active">
+      <div id="dataList"></div>
+    </div>
+
+    <div id="detailed" class="tab-content">
+      <div id="detailedList"></div>
+    </div>
+  </div>
+
+  <!-- Footer always at bottom -->
+  <div class="footer">
+    Developed by <strong>Rohan Parmar</strong>
+  </div>
+
+  <script type="module" src="sidepanel.js"></script>
+</body>
+</html>

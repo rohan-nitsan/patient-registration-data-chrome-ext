@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "Patient Registration Data",
+    "version": "1.0",
+    "description": "Boost your productivity with a smart sidebar that gives instant access to patient test data for faster form filling during development and testing.",
+    "permissions": ["sidePanel"],
+    "author": "Rohan Parmar",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_title": "Patient Registration Data"
+    },
+    "side_panel": {
+      "default_path": "sidepanel.html"
+    },
+    "icons": {
+      "48": "icon.png"
+    }
+  }
